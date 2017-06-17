@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Payment form</title>
+  </head>
+  <body>
+    <!--form action="https://t9k1nwq8ql.execute-api.us-east-1.amazonaws.com/testing/payments/create" method="POST"-->
+    <form action="http://localhost:3000/payments/create" method="POST">
+    <script
+	 src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+	 data-key="pk_test_sFNv57c8YZwSwJd9oYU8RMtq"
+	 data-image="images/marketplace.png"
+	 data-name="Emma's Farm CSA"
+	 data-description="Subscription for 1 weekly box"
+	 data-amount="2000"
+	 data-label="Sign Up Now for $20/month!">
+      </script>
+    </form>
+  </body>
+</html>
